@@ -1,19 +1,70 @@
-# Pronobo
+# 🏆 Pronobo
 
-We have developed a sports match prediction system designed to automate the analysis and prediction of match outcomes for different football leagues ( Premier League, La Liga, Ligue 1, Serie A, Bundesliga). 
-Our platform integrates a prediction algorithm and a user-friendly interface, suitable for both amateur and professional bettors, with the goal of helping them optimize their bets and maximize their winnings.
-The project follows a detailed execution plan comprising various stages, from data collection to platform maintenance. Ultimately, the project aims to provide a comprehensive and usable solution, offering favorable prospects in terms of improving prediction accuracy and user satisfaction.
+![Pronobo Screenshot](image.png)
 
-Come and try Pronobo now !
+**Pronobo** est une application web développée avec **Flask** qui prédit les résultats de matchs de football en se basant sur des techniques de **scraping et de machine learning**. Elle permet aux utilisateurs d'entrer des liens Eurosport pour générer des prédictions et suivre les tendances des équipes.
 
-a school project by
+## 📌 Fonctionnalités
 
-- <a href="https://github.com/Olivier-300" target="_blank">@Olivier</a>
+✅ **Prédiction des résultats** : Analyse et anticipation des vainqueurs de matchs.  
+✅ **Interface simple et intuitive** : Conçue pour une expérience utilisateur fluide.  
+✅ **Gestion des utilisateurs** : Possibilité de se connecter, de s'inscrire et d'administrer les comptes.  
+✅ **Mise à jour des données** : Récupération automatique des derniers résultats pour améliorer la précision.  
 
-- <a href="https://github.com/nathanbvn" target="_blank">@Nathanbvnr</a>
+## 🚀 Installation et Exécution
 
-- <a href="https://github.com/Leo-Azouu" target="_blank">@Leo-Azouu</a>
+### 1️⃣ Cloner le dépôt
 
-- <a href="https://github.com/TomHeising" target="_blank">@TomHeising</a>
+```bash
+git clone https://github.com/0adri3n/pronobo.git
+cd pronobo
+```
 
-- & me !
+### 2️⃣ Créer un environnement virtuel et installer les dépendances
+
+```bash
+python3 -m venv venv
+source venv/bin/activate  # Sur Windows, utilisez venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 3️⃣ Lancer l'application
+
+```bash
+flask run
+```
+
+L'application sera accessible à l'adresse `http://127.0.0.1:5000/`.
+
+## 📊 Utilisation
+
+![Page d'accueil](homepage.png)
+
+1. **Saisie de l'URL** : Entrer un lien Eurosport pour récupérer les données du match.
+2. **Prédiction** : L'algorithme analyse les données et affiche les résultats attendus.
+3. **Exploration des résultats** : Visualisation des prédictions précédentes et des statistiques.
+
+![Page de connexion](loginpage.png)
+
+## 🏅 Résultats des Prédictions
+
+![Page des résultats](resultspage.png)
+
+## ⚙️ Technologies utilisées
+
+- **Flask** 🐍 : Framework web Python.
+- **SQLite** 🗄️ : Base de données pour stocker les utilisateurs et résultats.
+- **Scraping & Machine Learning** 🤖 : Récupération et analyse des données de matchs.
+
+## 🔐 Gestion des utilisateurs
+
+- **Admin** : Peut gérer les comptes et mettre à jour la base de données.
+- **Utilisateur** : Peut entrer des liens, voir les prédictions et se connecter.
+
+## 📜 Licence
+
+Projet open-source sous licence **MIT**.
+
+---
+
+💡 *Envie de contribuer ? N'hésitez pas à ouvrir une issue ou une pull request !*
