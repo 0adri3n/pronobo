@@ -2,69 +2,69 @@
 
 ![Pronobo Screenshot](image.png)
 
-**Pronobo** est une application web développée avec **Flask** qui prédit les résultats de matchs de football en se basant sur des techniques de **scraping et de machine learning**. Elle permet aux utilisateurs d'entrer des liens Eurosport pour générer des prédictions et suivre les tendances des équipes.
+**Pronobo** is a web application developed with **Flask** that predicts football match results using **scraping and machine learning** techniques. It allows users to enter Eurosport links to generate predictions and track team trends.
 
-## 📌 Fonctionnalités
+## 📌 Features
 
-✅ **Prédiction des résultats** : Analyse et anticipation des vainqueurs de matchs.  
-✅ **Interface simple et intuitive** : Conçue pour une expérience utilisateur fluide.  
-✅ **Gestion des utilisateurs** : Possibilité de se connecter, de s'inscrire et d'administrer les comptes.  
-✅ **Mise à jour des données** : Récupération automatique des derniers résultats pour améliorer la précision.  
+✅ **Match result prediction**: Analysis and anticipation of match winners.  
+✅ **Simple and intuitive interface**: Designed for a smooth user experience.  
+✅ **User management**: Ability to log in, register, and administer accounts.  
+✅ **Data updates**: Automatic retrieval of the latest results to improve accuracy.  
 
-## 🚀 Installation et Exécution
+## 🚀 Installation & Execution
 
-### 1️⃣ Cloner le dépôt
+### 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/0adri3n/pronobo.git
 cd pronobo
 ```
 
-### 2️⃣ Créer un environnement virtuel et installer les dépendances
+### 2️⃣ Create a virtual environment and install dependencies
 
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # Sur Windows, utilisez venv\Scripts\activate
+source venv/bin/activate  # On Windows, use venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Lancer l'application
+### 3️⃣ Run the application
 
 ```bash
 flask run
 ```
 
-L'application sera accessible à l'adresse `http://127.0.0.1:5000/`.
+The application will be accessible at `http://127.0.0.1:5000/`.
 
-## 📊 Utilisation
+## 📊 Usage
 
-![Page d'accueil](homepage.png)
+![Home Page](homepage.png)
 
-1. **Saisie de l'URL** : Entrer un lien Eurosport pour récupérer les données du match.
-2. **Prédiction** : L'algorithme analyse les données et affiche les résultats attendus.
-3. **Exploration des résultats** : Visualisation des prédictions précédentes et des statistiques.
+1. **Enter the URL**: Provide a Eurosport link to fetch match data.
+2. **Prediction**: The algorithm analyzes the data and displays expected results.
+3. **Explore results**: View previous predictions and statistics.
 
-![Page de connexion](loginpage.png)
+![Login Page](loginpage.png)
 
-## 🏅 Résultats des Prédictions
+## 🏅 Prediction Results
 
-![Page des résultats](resultspage.png)
+![Results Page](resultspage.png)
 
-## ⚙️ Technologies utilisées
+## ⚙️ Technologies Used
 
-- **Flask** 🐍 : Framework web Python.
-- **SQLite** 🗄️ : Base de données pour stocker les utilisateurs et résultats.
-- **Scraping & Machine Learning** 🤖 : Récupération et analyse des données de matchs.
+- **Flask** 🐍: Python web framework.
+- **SQLite** 🗄️: Database for storing users and results.
+- **Scraping & Machine Learning** 🤖: Fetching and analyzing match data.
 
-## 🔐 Gestion des utilisateurs
+## 🔐 User Management
 
-- **Admin** : Peut gérer les comptes et mettre à jour la base de données.
-- **Utilisateur** : Peut entrer des liens, voir les prédictions et se connecter.
+- **Admin**: Can manage accounts and update the database.
+- **User**: Can enter links, view predictions, and log in.
 
-## 📜 Licence
+## 📜 License
 
-Projet open-source sous licence **MIT**.
+Open-source project under the **MIT** license.
 
 ---
 
-💡 *Envie de contribuer ? N'hésitez pas à ouvrir une issue ou une pull request !*
+💡 *Want to contribute? Feel free to open an issue or pull request!*
